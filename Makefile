@@ -3,3 +3,6 @@ install:
 
 run:
 	flask run
+
+check:
+	pylint app.py
